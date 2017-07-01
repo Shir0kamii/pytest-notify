@@ -1,0 +1,12 @@
+language: python
+python:
+- '3.4'
+- '3.5'
+- '3.6'
+env:
+  matrix:
+  - FLIT_USERNAME=shir0kamii
+before_install: pip install flit
+install: flit install --deps all
+script: py.test
+after_success: "./autopublish.sh"
