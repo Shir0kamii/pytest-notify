@@ -4,7 +4,7 @@ from collections import Counter
 import os
 import subprocess
 
-__version__ = "0.1.0"
+__version__ = "0.1.4"
 
 counter = Counter()
 
