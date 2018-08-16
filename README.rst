@@ -15,6 +15,11 @@ The installation is pretty simple::
 
     $ pip install pytest-notify
 
+Status
+------
+
+This project is no longer maintained.
+
 
 License
 -------
